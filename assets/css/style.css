@@ -16,7 +16,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #5cb874;
+  color: #0F6025;
 }
 
 a:hover {
@@ -43,7 +43,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #5cb874;
+  background: #0F6025;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -57,7 +57,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #78c48c;
+  background: #0F6025;
   color: #fff;
 }
 
@@ -405,12 +405,12 @@ h6 {
   left: 0;
   bottom: 0;
 }
-
+/*
 #hero .carousel-item::before {
   content: "";
   background-color: rgba(45, 103, 60, 0.8);
 }
-
+*/
 #hero .carousel-container {
   display: flex;
   justify-content: center;
@@ -423,20 +423,20 @@ h6 {
 }
 
 #hero .container {
-  text-align: center;
+  text-align: left;
 }
 
 #hero h2 {
-  color: #fff;
+  color: #000000;
   margin-bottom: 20px;
   font-size: 48px;
   font-weight: 700;
 }
 
 #hero p {
-  animation-delay: 0.4s;
-  margin: 0 auto 30px auto;
-  color: #fff;
+  animation-delay: 0.6s;
+  margin: 0 auto 9px auto;
+  color: #000000;
 }
 
 #hero .carousel-inner .carousel-item {
@@ -560,14 +560,14 @@ section {
 }
 
 .section-title {
-  text-align: center;
+  text-align: er;
   padding-bottom: 30px;
 }
 
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;
-  text-transform: uppercase;
+  text-transform: lowercase;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
@@ -650,7 +650,7 @@ section {
 --------------------------------------------------------------*/
 .about .content h3 {
   font-weight: 700;
-  font-size: 28px;
+  font-size: 25px;
 }
 
 .about .content ul {
@@ -665,7 +665,7 @@ section {
 .about .content ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #5cb874;
+  color: #0aff4b;
 }
 
 .about .content p:last-child {
