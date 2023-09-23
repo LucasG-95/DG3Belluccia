@@ -10,8 +10,9 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Work Sans", sans-serif;
   color: #444444;
+  
 }
 
 a {
@@ -30,7 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -565,14 +566,19 @@ section {
 }
 
 .section-title h2 {
-  font-size: 32px;
+  font-size: 40px;
   font-weight: bold;
   text-transform: lowercase;
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
 }
-
+.texto {
+  line-height: auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+width: 600px;}
 /*.section-title h2::before {
   content: "";
   position: absolute;
@@ -606,29 +612,45 @@ section {
 --------------------------------------------------------------*/
 .featured-services {
   padding: 20px 0;
+  background-color:#f5f5f5
+
 }
 
 .featured-services .icon-box {
   padding: 20px;
-}
+  margin: auto;
 
+}
+ #featured-services .container
+{background-color: #000000;
+align-items: center;}
 .featured-services .icon-box-bg {
   background-image: linear-gradient(0deg, #222222 0%, #2f2f2f 50%, #222222 100%);
 }
+.featured-services .divisiones
+{padding: auto;
+  margin: 30px;
+  width: 250px;
+background-color: #11dbcf;
+display: inline-flex;}
 
 .featured-services .icon {
   margin-bottom: 15px;
+  align-items: center;
+  
 }
 
-.featured-services .icon i {
-  color: #5cb874;
-  font-size: 42px;
-}
+/*.featured-services .icon i {
+  color: #112c18;
+  font-size: 30px;
+  text-align: center ;
+}*/
 
 .featured-services .title {
   font-weight: 700;
-  margin-bottom: 15px;
+ ;
   font-size: 18px;
+  text-align:center ;
 }
 
 .featured-services .title a {
@@ -643,21 +665,41 @@ section {
 .featured-services .description {
   line-height: 24px;
   font-size: 14px;
+  text-align: center;
 }
 
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
+.about {background-color:#F8F4ED;}
 .about .content h3 {
   font-weight: 700;
   font-size: 25px;
 }
-
+#about .seccion {align-items: top;
+background-color: #F8F4ED}
+#about .cajas-about {
+  margin: 30px;
+  padding: auto;
+  display:inline-block;
+/*background-color: #11dbcf;*/}
+.about .imagen 
+{align-items: left;
+width: 500px;
+margin 20px
+padding: 50px;
+display:}
+ 
 .about .content ul {
   list-style: none;
   padding: 0;
 }
-
+.about .texto {width:300px;
+  line-height: auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+width: 600px;}
 .about .content ul li {
   padding-bottom: 10px;
 }
@@ -671,7 +713,9 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
-
+/* revolucion
+*/
+.revolucion {background-color:#FFF99A;}
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
