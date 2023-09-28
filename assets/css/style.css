@@ -715,7 +715,7 @@ width: 100%;}
   .hero-reciclador .button-container {
     position:relative;
     top: 20px;
-    right: -105px;
+    right: -112px;
     height: 40px;
     width: 200px;
     margin-bottom: 40px;
@@ -725,7 +725,7 @@ width: 100%;}
  }
 /*pago*/
 .medios-de-pago {
-margin-bottom:  ;
+
 }
 .medios-de-pago .col-md-4 {
   text-align: center;
@@ -1001,8 +1001,7 @@ background-color: #F8F4ED;
   .about {
     padding-top:40px ;
     padding-bottom: 20px;
-    background-color: ; /* Puedes ajustar el valor del margen según tus preferencias */
-  }
+      }
 }
 @media (max-width: 767px) {
   .separador2 {
