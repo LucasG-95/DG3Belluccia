@@ -821,12 +821,13 @@ max-width: 100%;}
   background-position: center;
   background-repeat: no-repeat;
   margin-top: 50px;
+  margin-bottom: 50px;
   
 }
 .banner .container {
   position:relative;
-  top: 60px;
-  right: -600px;
+  top: 70px;
+  right: -750px;
   height: 120px;
   width: 200px;
   margin-bottom: 40px;
