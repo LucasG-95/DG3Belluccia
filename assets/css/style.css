@@ -11,7 +11,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: 'Work Sans', sans-serif;
-  color: #444444;
+  color: #333333;
   
 }
 
@@ -35,7 +35,7 @@ h6 {
 }
 p {
   font-family: 'Work Sans', sans-serif;
-  font-size: 18px;
+  font-size: 16px;
 font-weight: 400;
 }
 
@@ -519,7 +519,7 @@ background-image: url(../img/slide/slide-1.png);
   background: #5cb874;
 }
 
-#hero .btn-get-started {
+ .btn-get-started {
   font-family: 'Work Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -536,12 +536,12 @@ background-image: url(../img/slide/slide-1.png);
   background: #0F6025;
 }
 
-#hero .btn-get-started:hover {
-  background: #5cb874;
+.btn-get-started:hover {
+  background: #252525;
 }
 
 @media (max-width: 768px) {
-  #hero .btn-get-started {
+   .btn-get-started {
    
     margin-top:1px;
   }
@@ -567,8 +567,8 @@ background-image: url(../img/slide/slide-1.png);
   }
   #hero h2 {
     color: #ffffff;
-    font-size: 22px;
-    font-weight:700;
+    font-size: 30px;
+    font-weight:600;
     margin-bottom: 10px;
   }
   
@@ -662,26 +662,24 @@ width: 100%;}
 
 .section-title p {
   margin-bottom: 0;
-  font-size: 18px;
+  font-size: 16px;
   color: #000000;
 }
 
 
 
 /*hero reciclador*/
-.hero-reciclador{
-  background-image:url(../img/fondo-reciclador.png);
-  mix-blend-mode: multiply;
-  background-size:cover;
-  
+.hero-reciclador {
+  background-image: url(../img/fondo-reciclador.jpg);
+  background-size: cover; /* Hace que la imagen cubra todo el fondo */
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 300px;
+  max-width: 100%;
+  height: max-content;
 }
-.contenedor-n {
-  position: relative;
-  height: auto;
-  margin:20px;
-  
- 
-}
+
+#hero-reciclador .container{height: auto;}
 
 .hero-reciclador.numero {
   font-size: 48px; /* Ajusta el tamaño del número según tus necesidades */
@@ -703,7 +701,32 @@ width: 100%;}
   mix-blend-mode: multiply;
 }
 
+@media (max-width: 768px) {
+  .hero-reciclador {
+    background-image: none;
+    background: linear-gradient(to bottom, #cad8ce, white);
+    background-size: cover; /* Hace que la imagen cubra todo el fondo */
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top:0;
+    max-width: 100%;
+    height: max-content;
+  }
+  .hero-reciclador .button-container {
+    position:relative;
+    top: 20px;
+    right: -105px;
+    height: 40px;
+    width: 200px;
+    margin-bottom: 40px;
+    align-items: baseline;
+    
+  }
+ }
 /*pago*/
+.medios-de-pago {
+margin-bottom:  ;
+}
 .medios-de-pago .col-md-4 {
   text-align: center;
   margin-bottom: 30px; /* Espacio entre las columnas */
@@ -739,26 +762,44 @@ width: 100%;}
 .recibir-section .columna:hover {
   transform: scale(1.1);
 }
- .recibir-section {background-image: url(../img/fondopacks.png);}
+ .recibir-section {background-image: url(../img/fdo-prendas-recibir.png
+  );
+background-size:cover;
+max-width: 100%;}
 
 
 
 
 
+.bajada-recibir {background-image: url(../img/fondo-bajada-recibir.png);
+background-size:contain;
+max-width: 100%;}
 
-
+@media (max-width: 767px) {
+  .recibir-section {background-image:none;
+    background-color:#EFE9E2;
+  background-size:cover;
+  max-width: 100%;}
+  .bajada-recibir 
+  {background-image: none;
+    background-color:#aac0b0;
+}
+  
+} 
 /* como funciona*/
 .funcionamiento{
   background-color: #FFF99A;
 }
-.funcionamiento .caja {
+.funcionamiento2-caja {
   background-color:#fffcd8 ;
+  
 }
 .columna-funcionamiento {
   background-color: #fff;
   text-align: center;
   padding: 20px;
   margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.5s ease-in-out;
   
 }
@@ -770,6 +811,50 @@ width: 100%;}
 .columna-funcionamiento:hover {
   transform: translateY(-5px);
 }
+
+/*--------------------------------------------------------------
+# banner
+--------------------------------------------------------------*/
+.banner {
+  background-image: url(../img/banner-compra.png);
+  background-size:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+  
+}
+.banner .container {
+  position:relative;
+  top: 60px;
+  right: -600px;
+  height: 120px;
+  width: 200px;
+  margin-bottom: 40px;
+}
+
+#banner  .container {
+  margin-left: auto; 
+}
+@media (max-width: 767px) {
+  .banner {
+    background-image: url(../img/banner-compra-mobile.png);
+    background-size:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    
+  }
+  .banner .container {
+    position:relative;
+    top: 568px;
+    right: -20px;
+    height: 600px;
+    width: 200px;
+    margin-bottom: 40px;
+    align-items: baseline;
+  }
+}
+
 /*--------------------------------------------------------------
 # Featured Services
 --------------------------------------------------------------*/
@@ -784,7 +869,7 @@ width: 100%;}
   max-width: ;
   padding: 20px;
   margin: auto;
-  
+
 
 }
  #featured-services .container
@@ -854,6 +939,7 @@ padding-bottom: 0px;}
 }
 
 #about .seccion {
+  
   align-items: top;
   padding: 0;
 background-color: #F8F4ED
@@ -1072,6 +1158,9 @@ background-size: cover;
 }
 
 }
+/*--------------------------------------------------------------
+# Banner
+--------------------------------------------------------------*/
 
 
 /*--------------------------------------------------------------
@@ -1496,8 +1585,9 @@ padding-bottom: 30px;
 
 .member .social a {
   font-size: 20px;
+  font-weight: 500;
   margin-right: 10px;
-  color: #44600f;
+  color:#0F6025;
 }
 
 .link-container {
@@ -1514,7 +1604,7 @@ padding-bottom: 30px;
   color:#6ec083;
 }
 .miembro1{max-width: 80%;}
-.miembro2{max-width: 85%;}
+.miembro2{max-width: %;}
 @media (max-width: 768px){.member .comentarios {
   position: absolute;
   top:38%;
@@ -1526,7 +1616,7 @@ padding-bottom: 30px;
 .miembro1{max-width: 100%;}
 .miembro2{max-width: 100%;}
 .member p {
-  font-size: 16px;
+  font-size: 15px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
